@@ -4,7 +4,7 @@ OVIAN은 난소암 조직 병리 이미지(Whole Slide Image, WSI)의 아형(Sub
 
 본 시스템은 단일 모델 검증을 넘어 **[데이터 전처리 ➔ 모델 학습 ➔ 추론 및 시각화 ➔ RAG 기반 문헌 검색 ➔ UI 대시보드 ➔ 인메모리 보안 및 백엔드 라이프사이클 관리]**까지 전 파이프라인이 유기적으로 통합된 결합형 아키텍처를 가집니다.
 
-![OVIAN Dashboard Demo](assets/ovian_dashboard_demo.png)
+![OVIAN Dashboard Demo](assets/ovian_clinical_decision_support_solution.png)
 
 ---
 
@@ -39,7 +39,7 @@ OVIAN은 난소암 조직 병리 이미지(Whole Slide Image, WSI)의 아형(Sub
 
 ## 🏗️ System Architecture
 
-![OVIAN System Architecture](assets/ovian_system_architecture.png)
+![OVIAN System Architecture](assets/ovian_solution_architecture.png)
 *(※ 본 시스템은 대용량 비전 연산을 처리하는 AI 백엔드(Flask)와 의료진 인터페이스 UI(Streamlit)가 독립적으로 결합된 분리형 아키텍처(Decoupled Inference-Service Architecture)로 구동됩니다.)*
 
 ---
